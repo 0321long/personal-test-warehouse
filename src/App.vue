@@ -4,23 +4,14 @@
  * @Author: 
  * @Date: 2022-04-25 10:37:42
  * @LastEditors: long
- * @LastEditTime: 2022-05-05 15:08:30
+ * @LastEditTime: 2022-05-06 11:28:00
 -->
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-// import HelloWorld from './components/HelloWorld.vue'
-// import MyInput from './components/Input/index.vue'
-// import Tansform from './components/Transform/index.vue'
 </script>
 
 <template>
-  <!-- <MyInput /> -->
-  <!-- <Tansform /> -->
   <router-view/>
 
-  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
 </template>
 
 <style>

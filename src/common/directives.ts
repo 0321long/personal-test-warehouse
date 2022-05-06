@@ -4,7 +4,7 @@
  * @Author: 
  * @Date: 2022-05-05 17:52:23
  * @LastEditors: long
- * @LastEditTime: 2022-05-05 18:10:33
+ * @LastEditTime: 2022-05-06 09:48:39
  */
 
 export default {
@@ -26,8 +26,6 @@ export default {
     // 文本超出显示省略号
     ellipsis: {
       mounted(el: any, bind: any){
-        console.log(el);
-        console.log(bind);
         el.style.width = bind.arg || 100 + 'px'
         el.style.whiteSpace = 'nowrap'
         el.style.overflow = 'hidden'
