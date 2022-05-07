@@ -2,10 +2,10 @@
   <el-container>
     <el-main class="transform-box">
       <div class="logo-box">
-        <img src="../../assets/logo.png" />
+        <img src="@/assets/logo.png" />
       </div>
       <div class="title-box">
-        <img src="../../assets/title.png" />
+        <img src="@/assets/title.png" />
       </div>
       <div class="space-title-box">
         <p>中国科学院职工百日健步走活动</p>
@@ -27,7 +27,7 @@
         <p>中国科学院体育协会</p>
       </div>
       <div class="bottom-back-box">
-        <img src="../../assets/bottom-back.png" alt="" />
+        <img src="@/assets/bottom-back.png" alt="" />
       </div>
     </el-main>
   </el-container>
@@ -102,7 +102,7 @@ export default {
   position: relative;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url('../../assets/background.png');
+  background-image: url('assets/background.png');
   .img-box {
     margin: 0 auto;
     height: 240px;

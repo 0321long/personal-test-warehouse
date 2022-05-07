@@ -7,6 +7,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
     ElContainer: typeof import('element-plus/es')['ElContainer']
+    ElFooter: typeof import('element-plus/es')['ElFooter']
     ElForm: typeof import('element-plus/es')['ElForm']
     ElFormItem: typeof import('element-plus/es')['ElFormItem']
     ElHeader: typeof import('element-plus/es')['ElHeader']
@@ -33,6 +34,7 @@ declare module '@vue/runtime-core' {
     'Index(第一版)': typeof import('./src/components/Transform/index(第一版).vue')['default']
     Input: typeof import('./src/components/Input/index.vue')['default']
     Menu: typeof import('./src/components/Menu/index.vue')['default']
+    MyBanner: typeof import('./src/components/MyBanner/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Table: typeof import('./src/components/Table/index.vue')['default']

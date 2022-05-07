@@ -4,7 +4,7 @@
  * @Author: long
  * @Date: 2022-05-05 14:54:17
  * @LastEditors: long
- * @LastEditTime: 2022-05-05 18:10:26
+ * @LastEditTime: 2022-05-06 14:16:48
 -->
 <template>
   <div class="custom-index-box">
@@ -32,7 +32,7 @@
           <template #append>kg</template>
         </el-input>
       </el-form-item>
-      <p v-ellipsis :arg="'aaa'">测试自定义指令是否生效生效不生效不生效也生效</p>
+      <!-- <p v-ellipsis :arg="'aaa'">测试自定义指令是否生效生效不生效不生效也生效</p> -->
     </el-form>
   </div>
 </template>

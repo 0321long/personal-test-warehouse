@@ -4,10 +4,9 @@
  * @Author: long
  * @Date: 2022-05-05 14:54:17
  * @LastEditors: long
- * @LastEditTime: 2022-05-06 08:54:28
+ * @LastEditTime: 2022-05-06 18:18:43
 -->
 <template>
-  <!-- <myMenu></myMenu> -->
   <div class="home-menu-box">
     <el-menu
       mode="vertical"
@@ -32,11 +31,11 @@
   </div>
 </template>
 <script lang="ts">
-import myMenu from '../../components/Menu/index.vue';
-import myFrom from '../../components/Form/index.vue';
-import myTable from '../../components/Table/index.vue';
-import myTree from '../../components/Tree/index.vue';
-import Tansform from '../../components/Transform/index.vue';
+import myMenu from 'components/Menu/index.vue';
+import myFrom from 'components/Form/index.vue';
+import myTable from 'components/Table/index.vue';
+import myTree from 'components/Tree/index.vue';
+import Tansform from 'components/Transform/index.vue';
 import { reactive } from 'vue';
 export default {
   components: {
@@ -65,7 +64,7 @@ export default {
   },
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .transform-box{
   width: 375px;
   height: 818px;
